@@ -1,0 +1,138 @@
+.hero {
+ padding: 2em;
+ min-height: 100vh;
+ display: flex;
+ flex-direction: column;
+ justify-content: space-between;
+ text-align: center;
+ width: 100%;
+
+ .title {
+  font-size: 1.3rem;
+  font-weight: 700;
+ }
+
+ .group {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2em;
+  width: 100%;
+
+  img {
+   min-width: 8em;
+   min-height: 8em;
+   max-width: 15em;
+   border: 1px solid var(--primary-color);
+  }
+
+  .intro {
+   font-weight: 700;
+  }
+
+  .actions {
+   display: flex;
+   flex-direction: column;
+   gap: 1em;
+   width: 100%;
+
+   a {
+    text-decoration: none;
+
+    button {
+     text-align: center;
+     width: 100%;
+    }
+   }
+
+  }
+
+  p {
+   text-align: center;
+  }
+ }
+
+}
+
+.hero.auth {
+ position: relative;
+ text-align: left;
+
+ .group-auth {
+  display: flex;
+  flex-direction: column;
+  gap: 3em;
+
+  .title-header {
+   display: flex;
+   justify-content: space-between;
+
+   a {
+    font-size: 1.2rem;
+    color: var(--primary-color);
+   }
+
+   .title {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    color: var(--primary-color);
+
+    span:last-child {
+     color: var(--grey-color);
+    }
+   }
+  }
+
+  .login-details {
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+
+   .name {
+    font-size: 3.5rem;
+    font-weight: 700;
+    color: var(--primary-color);
+   }
+
+   .description {
+    color: var(--grey-color);
+   }
+  }
+ }
+
+ .actions {
+  position: absolute;
+  padding: 2em;
+  left: 0;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  width: 100%;
+
+  button {
+   text-align: center;
+   width: 100%;
+  }
+
+  .redirect {
+   text-align: center;
+
+   .address {
+    color: var(--grey-color);
+   }
+
+   a {
+    color: var(--primary-color);
+    text-decoration: none;
+    font-weight: 700;
+   }
+
+   a:hover {
+    text-decoration: underline;
+   }
+  }
+
+ }
+}

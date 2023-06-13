@@ -1,70 +1,9 @@
-.search {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  border: 1px solid var(--border-color);
-  min-width: 25em;
-  border-radius: 2px;
-
-  &__group {
-    padding: 0.5em 0.8em;
-    display: flex;
-    align-items: center;
-    gap: 0.5em;
-    color: var(--black-color);
-
-    input {
-      outline: none;
-      border: none;
-    }
-  }
-
-  &__exit {
-    display: none;
-    padding: 0 0.5em;
-    border-left: 1px solid var(--black-color);
-    cursor: pointer;
-  }
-
-  .fa-xmark {
-    display: none;
-    color: var(--black-color);
-  }
-}
-
-.modify.hero {
-  align-self: center;
-  max-width: 22em;
-  min-width: 20em;
-  display: flex;
-  flex-direction: column;
-  gap: 2em;
-  padding: 2em 1em;
-  border: 1px solid var(--black-color);
-  border-radius: 2px;
-  background-color: var(--white-color);
-
-  .login-details {
-    display: flex;
-    flex-direction: column;
-    gap: 0.5em;
-
-    .title {
-      font-size: 1.7rem;
-      font-weight: 700;
-      margin: 0;
-    }
-  }
-
-  .field.button {
-    display: flex;
-    justify-content: right;
-  }
-}
+.hero {}
 
 .modify {
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
 
   .title {
     font-size: 1rem;
@@ -181,29 +120,6 @@
       }
     }
   }
-}
 
-.modify.access {
-  padding: 1.5em;
-  border: 1px solid var(--border-color);
-  min-width: 25em;
-  max-width: 28em;
-  max-height: 32em;
-  display: flex;
-  flex-direction: column;
-  gap: 0.5em;
 
-  .fields {
-    gap: 0.8em;
-  }
-
-  img {
-    max-height: 12em;
-  }
-
-  .title {
-    align-self: center;
-    font-size: 1.5rem;
-    font-weight: 900;
-  }
 }
