@@ -5,36 +5,36 @@
  </a>
  <ul class="nav">
   <li>
-   <div class="group">
+   <a href="announcements.php" class="group">
     <i class="fa-solid fa-bullhorn"></i>
     <span class="name">Announcement</span>
-   </div>
+   </a>
    <i class="fa-solid fa-arrow-right-long"></i>
   </li>
   <li>
-   <div class="group">
+   <a href="voting-access-entry.php" class="group">
     <i class="fa-solid fa-check-to-slot"></i>
     <span class="name">Vote Access</span>
-   </div>
+   </a>
    <i class="fa-solid fa-arrow-right-long"></i>
   </li>
   <li>
-   <div class="group">
+   <a href="results.php" class="group">
     <i class="fa-solid fa-square-poll-vertical"></i>
     <span class="name">Results</span>
-   </div>
+   </a>
    <i class="fa-solid fa-arrow-right-long"></i>
   </li>
   <li>
-   <div class="group">
+   <a href="index.php" class="group">
     <i class="fa-solid fa-user-large"></i>
     <span class="name">Login/Register</span>
-   </div>
+   </a>
    <i class="fa-solid fa-arrow-right-long"></i>
   </li>
   <li>
-   <span class="introduce">Register or Login to vote.</span>
-
+   <span class="introduce">Hello, John!</span>
+   <span class="message">[ Not active account message ]</span>
   </li>
  </ul>
  <div class="actions">
