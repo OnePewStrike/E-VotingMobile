@@ -7,5 +7,5 @@ const menu = document.querySelector('.nav');
 // Action
 navButton.addEventListener('click', () => {
  menu.classList.toggle('active');
- navButton.classList.toggle('.fa-xmark');
+ navButton.classList.toggle('fa-xmark');
 });

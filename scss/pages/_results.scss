@@ -1,0 +1,134 @@
+.results {
+ display: flex;
+ flex-direction: column;
+ justify-content: space-between;
+ gap: 2em;
+
+ .group {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+
+  .title-page {
+   font-size: 1.7rem;
+   font-weight: 700;
+   color: var(--primary-color);
+  }
+
+  .card-group {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   gap: 1em;
+
+   .card {
+    flex: 50%;
+    background-color: var(--primary-color);
+    color: var(--text-color);
+    padding: 0.5em 1em;
+    min-height: 5em;
+    border-radius: 0.5em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    .value {
+     font-size: 1.5rem;
+     font-weight: 700;
+    }
+
+    .details {
+     display: flex;
+     gap: 0.5em;
+     align-items: center;
+    }
+   }
+  }
+
+  .position {
+   display: flex;
+   flex-direction: column;
+
+   .title {
+    font-weight: 700;
+    color: var(--grey-color);
+   }
+
+   .name {
+    font-weight: 700;
+    color: var(--primary-color);
+   }
+  }
+ }
+
+ .content-col {
+
+  .title {
+   font-weight: 700;
+   color: var(--primary-color);
+  }
+
+  .grouped-items {
+   display: flex;
+   flex-direction: column;
+   gap: 0.5em;
+
+   .item {
+    display: flex;
+    padding: 0.2em 0.5em;
+    border-radius: 5px;
+    align-items: center;
+    gap: 0.5em;
+
+    img {
+     flex: 10%;
+     border-radius: 100;
+     min-height: 2.4em;
+     min-width: 2.4em;
+     max-width: 2.4em;
+     max-height: 2.4em;
+     border-radius: 100%;
+     border: 1px solid var(--border-color);
+    }
+
+    .candidate-info {
+     flex: 75%;
+
+     .name {
+      font-weight: 700;
+      color: var(--primary-color);
+     }
+
+     .party-name {
+      color: var(--grey-color);
+     }
+    }
+
+    .group {
+     flex: 15%;
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+
+     .vote-count {
+      color: var(--grey-color);
+     }
+
+     .percentage {
+      display: flex;
+      align-items: center;
+      background-color: var(--primary-color);
+      padding: 0.6em 0.3em;
+      border-radius: 5px;
+      color: var(--white-color);
+     }
+
+    }
+   }
+
+   .item.selected {
+    background-color: var(--hover-color);
+   }
+  }
+ }
+}
