@@ -17,9 +17,7 @@
   <div class="page">
     <div class="page__header">
 
-      <?php include('views/inc/header.php') ?>
-      <?php include('views/components/menus.php') ?>
-      <?php include('views/components/modals.php') ?>
+      <?php include('views/inc/navbar.php') ?>
       
     </div>
     <main class="page__content">
