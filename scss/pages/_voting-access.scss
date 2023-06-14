@@ -1,0 +1,83 @@
+.voting-access {
+ padding: 2em 0;
+ display: flex;
+ flex-direction: column;
+ justify-content: space-between;
+ align-items: center;
+ text-align: center;
+ gap: 2em;
+ width: 100%;
+
+ img {
+  max-width: 15em;
+ }
+
+ .page-details {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+
+  .title {
+   font-size: 1.5rem;
+   font-weight: 700;
+   color: var(--primary-color);
+  }
+ }
+
+ .access-code {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5em;
+
+  .title {
+   font-weight: 700;
+   color: var(--primary-color);
+  }
+
+  .codes {
+   display: flex;
+   gap: 0.5em;
+
+   .code {
+    min-height: 3em;
+    min-width: 2.7em;
+    max-width: 2.7em;
+    border: 1px solid var(--border-color);
+    border-radius: 2px;
+    outline: none;
+   }
+  }
+
+  .info {
+
+   .group {
+
+    span:last-child {
+     color: var(--primary-color);
+     font-weight: 700;
+    }
+   }
+  }
+ }
+
+ .actions {
+  position: absolute;
+  padding: 2em;
+  left: 0;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  width: 100%;
+
+  a {
+   text-decoration: none;
+
+   button {
+    text-align: center;
+    width: 100%;
+   }
+  }
+
+ }
+}

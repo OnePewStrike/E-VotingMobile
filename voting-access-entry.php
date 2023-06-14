@@ -1,5 +1,5 @@
 <?php
   $title = 'Voting Access';
-  $contentView = 'views/_voting-acess-entry.php';
+  $contentView = 'views/_voting-access-entry.php';
   include('views/master.php');
 ?>
