@@ -3,6 +3,7 @@
 html {
   box-sizing: border-box;
   font-size: 100%;
+  background-color: var(--body-color);
 }
 
 *,
@@ -13,12 +14,11 @@ html {
 
 body {
   position: relative;
-  min-height: 100vh;
   margin: 0;
   padding: 0;
+  min-height: 100vh;
   list-style: none;
   text-decoration: none;
   font-family: util.$font;
-  background-color: var(--bg-color);
   overflow-x: hidden;
 }
