@@ -8,6 +8,11 @@
  gap: 2em;
  width: 100%;
 
+ i {
+  color: var(--primary-color);
+  font-size: 4.5rem;
+ }
+
  img {
   max-width: 15em;
  }
@@ -80,4 +85,11 @@
   }
 
  }
+}
+
+.center {
+ display: flex;
+ min-height: calc(100vh - 30em);
+ justify-content: center;
+ align-items: center;
 }
