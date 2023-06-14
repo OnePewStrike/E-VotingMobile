@@ -1,0 +1,19 @@
+.voting {
+ display: flex;
+ flex-direction: column;
+ justify-content: space-between;
+ gap: 4em;
+
+ .election-details {
+
+  .title {
+   font-size: 1.7rem;
+   font-weight: 700;
+   color: var(--primary-color);
+  }
+ }
+
+ form {}
+
+
+}

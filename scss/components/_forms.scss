@@ -4,6 +4,7 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  gap: 1em;
 
   .title {
     font-size: 1rem;
@@ -12,27 +13,79 @@
     color: var(--primary-color);
   }
 
-  .introduction {
-    font-size: 1.9rem;
-    font-weight: 700;
-    margin: 0.5em 0 1em;
-    color: var(--primary-color);
-  }
-
-  .details {
+  .position {
     display: flex;
     flex-direction: column;
-    gap: 0.5em;
 
-    .title {
-      margin-bottom: none;
-      color: var(--primary-color);
-    }
-
-    .description {
-      color: var(--black-color);
+    .select {
+      color: var(--grey-color);
+      font-weight: 700;
     }
   }
+
+  .candidates-group {
+    display: flex;
+    flex-direction: column;
+    gap: 0.2em;
+
+    .candidate {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 2em;
+
+      .group {
+        display: flex;
+        gap: 0.5em;
+
+        img {
+          border-radius: 100%;
+          min-height: 2.1em;
+          min-width: 2.7em;
+          max-width: 2.7em;
+          border: 1px solid var(--border-color);
+        }
+
+        .candidate-details {
+
+          .name {
+            color: var(--primary-color);
+            font-weight: 700;
+          }
+
+          .party-name {
+            color: var(--grey-color);
+          }
+        }
+      }
+    }
+
+  }
+
+  .field.checkbox {
+
+    input[type="checkbox"] {
+      transform: scale(1.5);
+    }
+
+    input[type="checkbox"]:checked {
+      background-color: var(--grey-color);
+    }
+  }
+
+  .abstain {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2em;
+  }
+
+  .actions {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+
 
   .fields {
     width: 100%;
@@ -120,6 +173,4 @@
       }
     }
   }
-
-
 }
