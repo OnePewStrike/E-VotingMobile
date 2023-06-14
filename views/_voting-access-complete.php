@@ -4,6 +4,8 @@
   <div class="title">Thank you for voting <br> with us!</div>
  </div>
  <div class="actions">
-  <button class="secondary">Return to Announcements</button>
+  <a href="">
+   <button class="secondary">Return to Announcements</button>
+  </a>
  </div>
 </div>

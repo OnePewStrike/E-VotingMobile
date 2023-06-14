@@ -23,7 +23,9 @@
   </div>
   <div class="actions">
    <button class="primary">Enter Access Code</button>
-   <button class="secondary">Return to Announcements</button>
+   <a href="">
+    <button class="secondary">Return to Announcements</button>
+   </a>
   </div>
  </form>
 </div>
