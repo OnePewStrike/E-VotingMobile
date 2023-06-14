@@ -31,6 +31,7 @@
   </div>
  </form>
  <div class="actions">
+  <button class="secondary wide">Go Back</button>
   <button class="primary wide">Next</button>
  </div>
 </div>
