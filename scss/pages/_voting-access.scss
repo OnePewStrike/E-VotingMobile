@@ -65,6 +65,12 @@
   }
  }
 
+ .submit {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ }
+
  .actions {
   position: absolute;
   padding: 2em;

@@ -68,76 +68,98 @@
 
  }
 
+ .bottom {
+  .content-col {
 
- .content-col {
+   .title {
+    font-weight: 700;
+    color: var(--primary-color);
+   }
 
-  .title {
-   font-weight: 700;
-   color: var(--primary-color);
-  }
-
-  .grouped-items {
-   display: flex;
-   flex-direction: column;
-   gap: 0.5em;
-
-   .item {
+   .grouped-items {
     display: flex;
-    padding: 0.5em 0.8em;
-    border-radius: 5px;
-    align-items: center;
+    flex-direction: column;
     gap: 0.5em;
 
-    img {
-     flex: 10%;
-     border-radius: 100;
-     min-height: 2.4em;
-     min-width: 2.4em;
-     max-width: 2.4em;
-     max-height: 2.4em;
-     border-radius: 100%;
-     border: 1px solid var(--border-color);
-    }
-
-    .candidate-info {
-     flex: 75%;
-
-     .name {
-      font-weight: 700;
-      color: var(--primary-color);
-     }
-
-     .party-name {
-      color: var(--grey-color);
-     }
-    }
-
-    .group {
-     flex: 15%;
+    .item {
      display: flex;
-     flex-direction: row;
+     padding: 0.5em 0.8em;
+     border-radius: 5px;
      align-items: center;
-     gap: 1em;
+     gap: 0.5em;
 
-     .vote-count {
-      color: var(--grey-color);
+     img {
+      flex: 10%;
+      border-radius: 100;
+      min-height: 2.4em;
+      min-width: 2.4em;
+      max-width: 2.4em;
+      max-height: 2.4em;
+      border-radius: 100%;
+      border: 1px solid var(--border-color);
      }
 
-     .percentage {
+     .candidate-info {
+      flex: 75%;
+
+      .name {
+       font-weight: 700;
+       color: var(--primary-color);
+      }
+
+      .party-name {
+       color: var(--grey-color);
+      }
+     }
+
+     .group {
+      flex: 15%;
       display: flex;
+      flex-direction: row;
       align-items: center;
-      background-color: var(--primary-color);
-      padding: 0.6em 0.3em;
-      border-radius: 5px;
-      color: var(--white-color);
-     }
+      gap: 1em;
 
+      .vote-count {
+       color: var(--grey-color);
+      }
+
+      .percentage {
+       display: flex;
+       align-items: center;
+       background-color: var(--primary-color);
+       padding: 0.6em 0.3em;
+       border-radius: 5px;
+       color: var(--white-color);
+      }
+
+     }
+    }
+
+    .item.selected {
+     background-color: var(--hover-color);
     }
    }
 
-   .item.selected {
-    background-color: var(--hover-color);
+  }
+
+  .nav-results {
+   margin: 5em 0 0;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 1em;
+
+   .circle {
+    min-height: 8px;
+    min-width: 8px;
+    border-radius: 100%;
+    background-color: var(--grey-color);
+   }
+
+   .circle:first-child {
+    background-color: var(--primary-color);
    }
   }
  }
+
 }

@@ -14,6 +14,9 @@
    <input type="text" class="code">
    <input type="text" class="code">
   </div>
+  <div class="submit">
+   <button type="submit" class="primary scan">Scan QR</button>
+  </div>
   <div class="info">
    <span>Don't have a code?</span>
    <div class="group">

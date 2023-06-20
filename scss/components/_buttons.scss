@@ -49,6 +49,13 @@ button.wide {
   padding: 0.7em 1.2em;
 }
 
+button.scan {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 button.no-border {
   border: none;
 }
