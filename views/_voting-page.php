@@ -11,7 +11,7 @@
    <?php for($i=0; $i<=5;$i++) { ?>
     <div class="candidate">
      <div class="group">
-      <img src="" alt="">
+      <img src="assets/images/dummy_avatar.png" alt="">
       <div class="candidate-details">
        <div class="name">John Doe</div>
        <div class="party-name">Party People</div>
@@ -31,7 +31,7 @@
   </div>
  </form>
  <div class="actions">
-  <button class="secondary wide">Go Back</button>
-  <button class="primary wide">Next</button>
+  <button class="tertiary wide">Go Back</button>
+  <button class="primary wide">Submit</button>
  </div>
 </div>

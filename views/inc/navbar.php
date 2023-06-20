@@ -34,7 +34,7 @@
   </li>
   <li>
    <span class="introduce">Hello, John!</span>
-   <span class="message">[ Not active account message ]</span>
+   <!-- <span class="message">[ Not active account message ]</span> -->
   </li>
  </ul>
  <div class="actions">
